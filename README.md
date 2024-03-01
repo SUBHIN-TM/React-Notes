@@ -22,8 +22,7 @@ Isolation: SOP prevents malicious websites from accessing sensitive data from an
 * Vite: A modern build tool that leverages native ES Modules for serving code and uses Rollup for production builds. It offers extremely fast cold server start and hot module replacement.
 
 # Why we need bundlers
-* Bundlers play a crucial role in React application development and deployment for several reasons. Their necessity stems from both the nature of modern web development practices and the technical requirements of browsers. Here are the key reasons why bundlers are needed in React
-
+* Bundlers play a crucial role in React application development and deployment  bundlers provides development practices and the technical requirements of browsers
 ## 1.JSX and Modern JavaScript Support
 * React often uses JSX syntax, which allows HTML to be written within JavaScript code, browsers can't directly interpret JSX or some of the latest JavaScript (ES6+) features used in React development. Bundlers like Webpack, Parcel, or Vite, in combination with transpilers like BABEL, convert JSX and modern JavaScript into plain JavaScript code that browsers can understand.
 BABEL CONVERT THE CODE TO REACT UNDERSTANDLE OBJECT JS CODE BY WRITING HTML LIKE SYNTAX THROUGH JSX
@@ -47,5 +46,5 @@ BABEL CONVERT THE CODE TO REACT UNDERSTANDLE OBJECT JS CODE BY WRITING HTML LIKE
 * Source Maps: Provide a way to map the code within a compressed file back to its original position in a source file, simplifying debugging.
 * Dev Servers: Local development servers that can serve assets dynamically, provide live reloading capabilities, and more.
 
-<h2>In summary</h2>,
-* bundlers are essential in React development for transforming, optimizing, and packaging web applications into formats that are efficient, manageable, and browser-compatible, significantly impacting both the development process and the performance of the final application.
+* In SUMMARY
+bundlers are essential in React development for transforming, optimizing, and packaging web applications into formats that are efficient, manageable, and browser-compatible, significantly impacting both the development process and the performance of the final application.
