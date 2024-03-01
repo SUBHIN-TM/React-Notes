@@ -3,4 +3,14 @@
 
 * When a user requests content from the website, the CDN dynamically determines the user's location and routes the request to the nearest server in the network. Then the server delivers the content to the user,
 
+* in react cdn act as a bridge between the corefiles with browser
 
+
+
+ # Same-Origin Policy (SOP)
+Isolation: SOP prevents malicious websites from accessing sensitive data from another site. For example, if you're logged into your bank's website, SOP stops other websites you might visit simultaneously from making requests to the bank's website and accessing or manipulating your banking information.
+
+# Cross-Origin Resource Sharing (CORS)
+* Controlled Sharing: CORS provides a way for servers to control how their resources are shared across origins. By specifying which origins are allowed to access a resource, servers can expose data to some origins while keeping it restricted from others.
+
+* In summary, the management of cross-origin requests through SOP, CORS, and other security measures is crucial for preventing cross-site scripting (XSS), data theft, and other web-based attacks, ensuring that the web remains a secure environment for users and developers.
