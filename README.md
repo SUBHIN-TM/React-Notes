@@ -47,4 +47,5 @@ BABEL CONVERT THE CODE TO REACT UNDERSTANDLE OBJECT JS CODE BY WRITING HTML LIKE
 * Source Maps: Provide a way to map the code within a compressed file back to its original position in a source file, simplifying debugging.
 * Dev Servers: Local development servers that can serve assets dynamically, provide live reloading capabilities, and more.
 
-* In summary, bundlers are essential in React development for transforming, optimizing, and packaging web applications into formats that are efficient, manageable, and browser-compatible, significantly impacting both the development process and the performance of the final application.
+<h2>In summary</h2>,
+* bundlers are essential in React development for transforming, optimizing, and packaging web applications into formats that are efficient, manageable, and browser-compatible, significantly impacting both the development process and the performance of the final application.
