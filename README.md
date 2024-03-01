@@ -48,3 +48,10 @@ BABEL CONVERT THE CODE TO REACT UNDERSTANDLE OBJECT JS CODE BY WRITING HTML LIKE
 
 * In SUMMARY
 bundlers are essential in React development for transforming, optimizing, and packaging web applications into formats that are efficient, manageable, and browser-compatible, significantly impacting both the development process and the performance of the final application.
+
+# Element and Component
+* Element:is a plane object represent a dom node .it is the smallest building block of react application.
+
+* Component: is a javascript class or function accepts input and return as react element .
+
+* in SUMMARY element is the plain  object representing a part of the ul .component is a js class or function responsible for rendering that element.components are reusable and can be composed to create complex uis
