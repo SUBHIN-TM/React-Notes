@@ -24,25 +24,25 @@ Isolation: SOP prevents malicious websites from accessing sensitive data from an
 # Why we need bundlers
 * Bundlers play a crucial role in React application development and deployment for several reasons. Their necessity stems from both the nature of modern web development practices and the technical requirements of browsers. Here are the key reasons why bundlers are needed in React
 
-## JSX and Modern JavaScript Support
+## 1.JSX and Modern JavaScript Support
 * React often uses JSX syntax, which allows HTML to be written within JavaScript code, browsers can't directly interpret JSX or some of the latest JavaScript (ES6+) features used in React development. Bundlers like Webpack, Parcel, or Vite, in combination with transpilers like BABEL, convert JSX and modern JavaScript into plain JavaScript code that browsers can understand.
 BABEL CONVERT THE CODE TO REACT UNDERSTANDLE OBJECT JS CODE BY WRITING HTML LIKE SYNTAX THROUGH JSX
 
-## Module Bundling
+## 2.Module Bundling
  * React applications are typically built using a modular architecture, with components and utilities split across multiple files and directories. Modern JavaScript modules (using import and export syntax) aren't fully supported in all browsers, especially in more complex scenarios. Bundlers compile these modules into a single file or a few chunks, ensuring the code can be executed in the browser efficiently.
 
-## Performance Optimization
+## 3.Performance Optimization
  * Minification: Reducing file size by removing unnecessary characters (like whitespace) from code without changing its functionality.
 * Tree Shaking: Eliminating unused code from the final bundle, reducing load times and improving app performance.
 * Code Splitting: Splitting code into various bundles that can be loaded on demand or in parallel, improving the initial load time of the application.
 
-## Environment Variables
+## 4.Environment Variables
 * Bundlers allow developers to use environment variables  enabling more secure and flexible configuration management.
 
-## Asset Management
+## 5.Asset Management
 * React applications often include various assets like CSS, images, and fonts. Bundlers can process these assets by incorporating them directly into the JavaScript bundle.
 
-##  Development Experience
+##  6.Development Experience
 * Hot Module Replacement (HMR): Allows modules to be updated in real-time without needing a full page refresh, speeding up development.
 * Source Maps: Provide a way to map the code within a compressed file back to its original position in a source file, simplifying debugging.
 * Dev Servers: Local development servers that can serve assets dynamically, provide live reloading capabilities, and more.
