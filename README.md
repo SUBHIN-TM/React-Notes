@@ -55,3 +55,7 @@ bundlers are essential in React development for transforming, optimizing, and pa
 * Component: is a javascript class or function accepts input and return as react element .
 
 * in SUMMARY element is the plain  object representing a part of the ul .component is a js class or function responsible for rendering that element.components are reusable and can be composed to create complex ui's
+
+
+# Props
+In React, "props" (short for properties) ,Props are like parameters passed to a function. They allow you to customize and configure a component when it is created.
